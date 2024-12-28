@@ -1,5 +1,7 @@
--- Active: 1734449102297@@127.0.0.1@3306@electronic_hub
+<!-- -- Active: 1734449102297@@127.0.0.1@3306@electronic_hub -->
 <?php
+
+session_start(); // Start the session
 
 $dsn = 'mysql:host=localhost;dbname=electronic_hub';
 $username = 'admin';
